@@ -58,7 +58,7 @@ def addArrays(arr1, arr2):
     result[0] = remainder
     return result
 
-n=1
+n=30
 x =[]
 y= []
 for i in range(n):
@@ -75,7 +75,7 @@ plt.ylabel("Time")
 
 a=[]
 b=[]
-n=1
+n=30
 for i in range(n):
     a.append(i)
     s=time.time()
@@ -88,7 +88,7 @@ plt.xlabel("N")
 plt.ylabel("Time")
 plt.show()
 
-print(getFibonacciArray(8,10))
+#print(getFibonacciArray(8,10))
 
 def biggestFibWithNDigits(n):
     for i in range(10000):
